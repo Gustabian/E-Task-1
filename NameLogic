@@ -14,10 +14,10 @@ import latihanformjava.Model.ModelProgram;
 public class NameLogic {
     
     public String returnName(ModelProgram modelProgram){
-        return "Hello, you must be " + modelProgram.getName();
+        return "HELLO!, You Must Be " + modelProgram.getName();
     }
     public String returnKosong(ModelProgram modelProgram){
-        return "your name couldn't be empty "; 
+        return "Your Name Couldn't Be Empty! "; 
     }
    
     
